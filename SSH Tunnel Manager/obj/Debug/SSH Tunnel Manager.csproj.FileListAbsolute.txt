@@ -1,0 +1,12 @@
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\bin\Debug\SSH Tunnel Manager.exe
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\bin\Debug\SSH Tunnel Manager.pdb
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.csprojAssemblyReference.cache
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH_Tunnel_Manager.Properties.Resources.resources
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.csproj.GenerateResource.cache
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.csproj.CoreCompileInputs.cache
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.exe
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.pdb
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH_Tunnel_Manager.FrmMain.resources
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH_Tunnel_Manager.NewTunnel.resources
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\bin\Debug\Renci.SshNet.xml
+C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.csproj.CopyComplete
