@@ -49,11 +49,11 @@ namespace SSH_Tunnel_Manager
             this.deleteThisItemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteAllItemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteSelectionItemsFromLocalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteAllItemsFromLocalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -78,13 +78,13 @@ namespace SSH_Tunnel_Manager
             this.clmsshserver,
             this.clmstatus,
             this.clmPass});
-            this.dataGridView2.Location = new System.Drawing.Point(12, 75);
+            this.dataGridView2.Location = new System.Drawing.Point(12, 81);
             this.dataGridView2.Name = "dataGridView2";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(1018, 360);
+            this.dataGridView2.Size = new System.Drawing.Size(1018, 390);
             this.dataGridView2.TabIndex = 1;
             this.dataGridView2.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView2_CellMouseDown);
             // 
@@ -147,9 +147,9 @@ namespace SSH_Tunnel_Manager
             // 
             // btnNewOne
             // 
-            this.btnNewOne.Location = new System.Drawing.Point(12, 441);
+            this.btnNewOne.Location = new System.Drawing.Point(12, 478);
             this.btnNewOne.Name = "btnNewOne";
-            this.btnNewOne.Size = new System.Drawing.Size(224, 34);
+            this.btnNewOne.Size = new System.Drawing.Size(224, 37);
             this.btnNewOne.TabIndex = 2;
             this.btnNewOne.Text = "New SSH Tunnel";
             this.btnNewOne.UseVisualStyleBackColor = true;
@@ -157,9 +157,9 @@ namespace SSH_Tunnel_Manager
             // 
             // btnStartall
             // 
-            this.btnStartall.Location = new System.Drawing.Point(336, 441);
+            this.btnStartall.Location = new System.Drawing.Point(336, 478);
             this.btnStartall.Name = "btnStartall";
-            this.btnStartall.Size = new System.Drawing.Size(224, 34);
+            this.btnStartall.Size = new System.Drawing.Size(224, 37);
             this.btnStartall.TabIndex = 3;
             this.btnStartall.Text = "Start all Tunnels";
             this.btnStartall.UseVisualStyleBackColor = true;
@@ -167,9 +167,9 @@ namespace SSH_Tunnel_Manager
             // 
             // btnStopall
             // 
-            this.btnStopall.Location = new System.Drawing.Point(566, 441);
+            this.btnStopall.Location = new System.Drawing.Point(566, 478);
             this.btnStopall.Name = "btnStopall";
-            this.btnStopall.Size = new System.Drawing.Size(224, 34);
+            this.btnStopall.Size = new System.Drawing.Size(224, 37);
             this.btnStopall.TabIndex = 4;
             this.btnStopall.Text = "Stop all Tunnels";
             this.btnStopall.UseVisualStyleBackColor = true;
@@ -177,9 +177,9 @@ namespace SSH_Tunnel_Manager
             // 
             // btnexit
             // 
-            this.btnexit.Location = new System.Drawing.Point(944, 441);
+            this.btnexit.Location = new System.Drawing.Point(944, 478);
             this.btnexit.Name = "btnexit";
-            this.btnexit.Size = new System.Drawing.Size(86, 34);
+            this.btnexit.Size = new System.Drawing.Size(86, 37);
             this.btnexit.TabIndex = 5;
             this.btnexit.Text = "Exit";
             this.btnexit.UseVisualStyleBackColor = true;
@@ -197,68 +197,69 @@ namespace SSH_Tunnel_Manager
             this.toolStripMenuItem1,
             this.toolStripMenuItem2});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(266, 170);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(246, 148);
             // 
             // deleteThisItemToolStripMenuItem
             // 
             this.deleteThisItemToolStripMenuItem.Name = "deleteThisItemToolStripMenuItem";
-            this.deleteThisItemToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.deleteThisItemToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
             this.deleteThisItemToolStripMenuItem.Text = "remove selection item";
             this.deleteThisItemToolStripMenuItem.Click += new System.EventHandler(this.deleteThisItemToolStripMenuItem_Click);
             // 
             // deleteAllItemToolStripMenuItem
             // 
             this.deleteAllItemToolStripMenuItem.Name = "deleteAllItemToolStripMenuItem";
-            this.deleteAllItemToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.deleteAllItemToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
             this.deleteAllItemToolStripMenuItem.Text = "remove all item";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(262, 6);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(265, 22);
-            this.toolStripMenuItem1.Text = "start seletion items";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(265, 22);
-            this.toolStripMenuItem2.Text = "stop selection items";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(242, 6);
             // 
             // deleteSelectionItemsFromLocalToolStripMenuItem
             // 
             this.deleteSelectionItemsFromLocalToolStripMenuItem.Name = "deleteSelectionItemsFromLocalToolStripMenuItem";
-            this.deleteSelectionItemsFromLocalToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.deleteSelectionItemsFromLocalToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
             this.deleteSelectionItemsFromLocalToolStripMenuItem.Text = "delete selection items from local";
             // 
             // deleteAllItemsFromLocalToolStripMenuItem
             // 
             this.deleteAllItemsFromLocalToolStripMenuItem.Name = "deleteAllItemsFromLocalToolStripMenuItem";
-            this.deleteAllItemsFromLocalToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
+            this.deleteAllItemsFromLocalToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
             this.deleteAllItemsFromLocalToolStripMenuItem.Text = "delete all items from local";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(262, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(242, 6);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(245, 22);
+            this.toolStripMenuItem1.Text = "start seletion items";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(245, 22);
+            this.toolStripMenuItem2.Text = "stop selection items";
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 487);
+            this.ClientSize = new System.Drawing.Size(1042, 528);
             this.Controls.Add(this.btnexit);
             this.Controls.Add(this.btnStopall);
             this.Controls.Add(this.btnStartall);
             this.Controls.Add(this.btnNewOne);
             this.Controls.Add(this.dataGridView2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMain";
-            this.Text = "SSH Tunnel Manager beta 1.0 - http://www.dark5.net";
+            this.Text = "SSH Tunnel Manager beta 1.1 - http://www.dark5.net";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);

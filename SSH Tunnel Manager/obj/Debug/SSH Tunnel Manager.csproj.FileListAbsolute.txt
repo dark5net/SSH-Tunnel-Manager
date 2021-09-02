@@ -10,3 +10,15 @@ C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH_T
 C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH_Tunnel_Manager.NewTunnel.resources
 C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\bin\Debug\Renci.SshNet.xml
 C:\Users\h4ck\source\repos\SSH Tunnel Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.csproj.CopyComplete
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\bin\Debug\SSH Tunnel Manager.exe
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\bin\Debug\SSH Tunnel Manager.pdb
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\bin\Debug\Renci.SshNet.xml
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.csproj.AssemblyReference.cache
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\obj\Debug\SSH_Tunnel_Manager.FrmMain.resources
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\obj\Debug\SSH_Tunnel_Manager.NewTunnel.resources
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\obj\Debug\SSH_Tunnel_Manager.Properties.Resources.resources
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.csproj.GenerateResource.cache
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.csproj.CoreCompileInputs.cache
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.csproj.CopyComplete
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.exe
+C:\Users\dark5\Documents\GitHub\SSH-Tunnel-Manager\SSH Tunnel Manager\obj\Debug\SSH Tunnel Manager.pdb

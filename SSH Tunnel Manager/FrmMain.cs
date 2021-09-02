@@ -139,6 +139,7 @@ namespace SSH_Tunnel_Manager
             using (var client = new SshClient(ConnNfo))
             {
                 client.Connect();
+                
                 //if (client.IsConnected)
                 //{
                 //    MessageBox.Show("SSH is Connected.");
@@ -149,6 +150,7 @@ namespace SSH_Tunnel_Manager
                 var portLocalFwld = new ForwardedPortLocal("127.0.0.1", forwardport,  dip, dport);
                 client.AddForwardedPort(portLocalFwld);
                 portLocalFwld.Start();
+                
 
                 if (portLocalFwld.IsStarted)
                 {
@@ -156,6 +158,8 @@ namespace SSH_Tunnel_Manager
                     dataGridView2.Rows[int.Parse(d["row"])].Cells[5].Value = "Success";
                 }
                 else { dataGridView2.Rows[int.Parse(d["row"])].Cells[5].Value = "Failed"; }
+
+
                 while (!stopFlag)
                 {
                     Thread.Sleep(1000);
@@ -206,6 +210,9 @@ namespace SSH_Tunnel_Manager
 
                     //var portFwld = new ForwardedPortLocal("0.0.0.0", 80, "39.108.88.207", 22);
                     var portremoteFwld = new ForwardedPortRemote("127.0.0.1", forwardport, dip, dport);
+
+                    
+
                     client.AddForwardedPort(portremoteFwld);
                     portremoteFwld.Start();
 
@@ -215,9 +222,16 @@ namespace SSH_Tunnel_Manager
                         dataGridView2.Rows[int.Parse(d["row"])].Cells[5].Value = "Success";
                     }
                     else { dataGridView2.Rows[int.Parse(d["row"])].Cells[5].Value = "Failed"; }
+                    
                     while (!stopFlag)
                     {
                         Thread.Sleep(1000);
+                        if (!client.IsConnected)
+                        {
+                            dataGridView2.Rows[int.Parse(d["row"])].Cells[5].Value = "disconnected.";
+                            addRemoteForwarding(d);
+                        }
+                            
                     }
                     dataGridView2.Rows[int.Parse(d["row"])].Cells[5].Value = "stoped.";
                 }
